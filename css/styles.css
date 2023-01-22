@@ -1,4 +1,4 @@
-.root {
+:root {
     --color-body: #E5E1EE;
     --color-primary: #20465B;
     --color-secundary: #fff;
@@ -21,4 +21,38 @@ body {
 
 .icon--dark {
     color: #000;
+}
+
+/* Buttons */
+.btn-container{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 20px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 0 2rem;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.btn--primary {
+    background: var(--color-primary);
+}
+
+.btn:hover {
+    opacity: 70%;
+}
+
+@media screen and (max-width: 768px){
+    .btn-container {
+        flex-direction: column;
+    }
 }
