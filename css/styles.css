@@ -23,6 +23,15 @@ body {
     font-size: 1.7rem;
 }
 
+.icon {
+    transition: opacity 0.2s;
+}
+
+.icon:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
 .icon--dark {
     color: #000;
 }
@@ -38,8 +47,7 @@ body {
 /* Buttons */
 .btn-container{
     display: flex;
-    gap: 1rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .btn {
@@ -118,6 +126,10 @@ body {
     border-radius: 30px;
     height: 0.6rem;
     margin: 0 2rem;
+}
+
+.line--small {
+    height: 0.2rem;
 }
 
 .line--dark {
