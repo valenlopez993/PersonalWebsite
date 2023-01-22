@@ -114,6 +114,10 @@ body {
     margin: 0 2rem;
 }
 
+.line--dark {
+    background: #000;
+}
+
 .line--primary {
     background: var(--color-primary);
 }
