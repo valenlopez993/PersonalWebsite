@@ -102,18 +102,26 @@ body {
     text-align: center;
 }
 
-.navBar__brand > h3{
+.navBar__brand > h3 {
     margin: 0.4rem 0;
     padding-top: 1rem;
 }
 
-.navBar__brand > p{
+.navBar__brand > p {
     margin: 0.4rem 0;
 }
 
 .navBar__options {
     display: flex;
     gap: 1.5rem;
+}
+
+.navBar__options-item {
+    transition: opacity 0.2s;
+}
+
+.navBar__options-item:hover {
+    opacity: 70%;
 }
 
 .navBar__options--primary {
