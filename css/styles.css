@@ -27,6 +27,10 @@ body {
     color: #000;
 }
 
+.icon--primary {
+    color: var(--color-primary);
+}
+
 /* Buttons */
 .btn-container{
     display: flex;
@@ -95,6 +99,21 @@ body {
     color: #000;
 }
 
+/* Divider Lines */
+.line {
+    border-radius: 30px;
+    height: 0.6rem;
+    margin: 0 2rem;
+}
+
+.line--primary {
+    background: var(--color-primary);
+}
+
+.line--secondary {
+    background: var(--color-secundary);
+}
+
 /* Sections Divider */
 .sectionDivider {
     align-items: center;
@@ -103,10 +122,40 @@ body {
     margin: 2rem, 0;
 }
 
-.line {
-    background: var(--color-primary);
-    border-radius: 30px;
+.sectionDivider .line {
     flex-grow: 1;
-    height: 0.6rem;
-    margin: 0 2rem;
+}
+
+/* Contact options */
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+.contact__option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.contact__option h3{
+    font-size: 1rem;
+}
+
+.contact__data {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact__text{
+    margin: 0.5rem 0;
+}
+
+.contactContainer .line {
+    margin: 0;
 }
