@@ -12,11 +12,15 @@ body {
     background: var(--color-body);
 }
 
+.container {
+    margin: 11.9rem;
+}
+
 /* Icons */
 .icon-container {
     display: flex;
-    gap: 2rem;
-    font-size: 4rem;
+    gap: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .icon--dark {
@@ -55,4 +59,38 @@ body {
     .btn-container {
         flex-direction: column;
     }
+}
+
+/* Navigation Bar */
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.navBar__brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.navBar__brand > h3{
+    margin: 0.4rem 0;
+    padding-top: 1rem;
+}
+
+.navBar__brand > p{
+    margin: 0.4rem 0;
+}
+
+.navBar__options {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navBar__options > a {
+    text-decoration: none;
+    color: #000;
 }
