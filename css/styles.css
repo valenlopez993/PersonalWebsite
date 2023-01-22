@@ -1,9 +1,24 @@
 .root {
     --color-body: #E5E1EE;
-    --color-primary: #E5E1EE;
-    --color-secundary: 
+    --color-primary: #20465B;
+    --color-secundary: #fff;
+}
+
+html {
+    font-size: 62.5%;
 }
 
 body {
     background: var(--color-body);
+}
+
+/* Icons */
+.icon-container {
+    display: flex;
+    gap: 2rem;
+    font-size: 4rem;
+}
+
+.icon--dark {
+    color: #000;
 }
