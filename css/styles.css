@@ -170,6 +170,12 @@ p, a {
     }
 }
 
+@media screen and (max-width: 1024px){
+    .navBar__brand {
+        flex-grow: 2;
+    }
+}
+
 /* Divider Lines */
 .line {
     border-radius: 30px;
