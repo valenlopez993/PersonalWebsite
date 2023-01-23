@@ -132,7 +132,7 @@ p, a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 5rem;
+    padding: 0 3rem;
 }
 
 .navBar__item {
@@ -212,6 +212,14 @@ p, a {
         border: 0;
     }
 }
+
+@media screen and (max-width: 400px){
+
+    .navBar__brand {
+        width: 225px;
+    }
+}
+
 
 /* Divider Lines */
 .line {
