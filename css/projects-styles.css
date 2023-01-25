@@ -35,16 +35,33 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
     padding: 0 5rem 4rem;
-    width: 1px;
+    width: 500px;
+    text-align: left;
+}
+
+.project__block--written-context-space > :first-child{
+    margin-bottom: 2rem;
+}
+
+.project__block a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project__block--ancher-color-green {
+    color: green;
+}
+
+.project__block--ancher-color-blue {
+    color: dodgerblue;
 }
 
 .project__block p {
     margin: 0;
 }
 
-.project__block :first-child {
+.project__block > :first-child {
     margin-top: 0;
     margin-bottom: 5rem;
 }
@@ -54,6 +71,7 @@
     border-radius: 20px;
     object-fit: contain;
     box-shadow: 5px 5px 10px 5px #222;
+    border: 0;
 }
 
 @media screen and (max-width: 1024px){
