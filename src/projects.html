@@ -11,7 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&family=Quicksand:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../css/projectsStyles.css" />
+    <link rel="stylesheet" href="../css/projects-styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script
       src="https://kit.fontawesome.com/ee266b6e75.js"
       crossorigin="anonymous"
@@ -78,9 +79,9 @@
       </div>
     </section>
     <div class="projects">
-      <section>
-        <div class="project">
-          <h2 class="project__heading" id="3D_Printer_Project">3D Printer</h2>
+      <section id="3D_Printer_Project">
+        <div class="project" data-aos="slide-left" data-aos-duration="2000">
+          <h2 class="project__heading">3D Printer</h2>
           <div class="project__body">
             <div class="project__block">
               <p>
@@ -122,11 +123,9 @@
           </div>
         </div>
       </section>
-      <section>
-        <div class="project">
-          <h2 class="project__heading" id="NLP_Project">
-            Natural Language Processing
-          </h2>
+      <section id="NLP_Project">
+        <div class="project" data-aos="slide-right" data-aos-duration="2000">
+          <h2 class="project__heading">Natural Language Processing</h2>
           <div class="project__body">
             <div class="project__block">
               <p>
@@ -166,11 +165,9 @@
           </div>
         </div>
       </section>
-      <section>
-        <div class="project">
-          <h2 class="project__heading" id="Mobile_Robot_Project">
-            Mobile Robot
-          </h2>
+      <section id="Mobile_Robot_Project">
+        <div class="project" data-aos="slide-left" data-aos-duration="2000">
+          <h2 class="project__heading">Mobile Robot</h2>
           <div class="project__body">
             <div class="project__block">
               <p>
@@ -254,5 +251,9 @@
       </div>
     </footer>
     <script src="../js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
