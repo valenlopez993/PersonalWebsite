@@ -4,8 +4,19 @@
 .project {
     padding: 2rem 0;
 }
+
+.project__heading {
+    margin-bottom: 5rem;
+}
+
 .projects section:nth-child(even){
     background: var(--color-secondary);
+}
+
+.project__topBtn {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
 }
 
 .project {
@@ -24,11 +35,18 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
     flex-grow: 1;
-    padding: 5rem;
-    padding-top: 1rem;
+    padding: 0 5rem 4rem;
     width: 1px;
+}
+
+.project__block p {
+    margin: 0;
+}
+
+.project__block :first-child {
+    margin-top: 0;
+    margin-bottom: 5rem;
 }
 
 .project__media {

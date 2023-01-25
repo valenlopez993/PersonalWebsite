@@ -46,10 +46,20 @@ p, a {
     display: flex;
     gap: 1.5rem;
     font-size: 1.7rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon--medium {
     font-size: 3rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.icon--big {
+    font-size: 4rem;
+    width: 5rem;
+    height: 5rem;
 }
 
 .icon {
@@ -63,6 +73,12 @@ p, a {
 
 .icon--dark {
     color: #000;
+}
+
+.icon--background {
+    background: var(--color-primary);
+    color: #fff;
+    border-radius: 50%;
 }
 
 .icon--primary {
@@ -286,6 +302,10 @@ p, a {
     text-align: center;
 }
 
+.projectSection--background {
+    background: var(--color-primary);
+}
+
 .projectSection__image {
     width: 200px;
     height: 250px;
@@ -298,6 +318,10 @@ p, a {
     max-width: 200px;
     color: #000;
     text-decoration: none;
+}
+
+.projectSection--background .projectSection__item {
+    color: var(--color-secondary);
 }
 
 .projectSection__item:hover {
