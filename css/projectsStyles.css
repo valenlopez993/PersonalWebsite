@@ -1,17 +1,26 @@
+@import './styles.css';
+
 /* Projects Section */
-.projects {
+.project {
+    padding: 2rem 0;
+}
+.projects section:nth-child(even){
+    background: var(--color-secondary);
+}
+
+.project {
     text-align: center;
     text-transform: uppercase;
 }
 
-.projects__body {
+.project__body {
     display: flex;
     text-transform: none;
     justify-content: space-evenly;
     gap: 2rem;
 }
 
-.projects__block {
+.project__block {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -22,7 +31,7 @@
     width: 1px;
 }
 
-.projects__media {
+.project__media {
     height: 500px;
     border-radius: 20px;
     object-fit: contain;
@@ -30,23 +39,23 @@
 }
 
 @media screen and (max-width: 1024px){
-    .projects__media {
+    .project__media {
         height: auto;
         width: 100%;
     }
 }
 
 @media screen and (max-width: 768px){
-    .projects__body {
+    .project__body {
         flex-wrap: wrap;
     }
 
-    .projects__block {
+    .project__block {
         flex-grow: 0;
         width: auto;
     }
 
-    .projects__media {
+    .project__media {
         width: 70%;
     }
 }
