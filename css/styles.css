@@ -23,7 +23,7 @@ body {
 }
 
 /* Typography */
-h1, h2, h3, p, a {
+h1, h2, h3, p, a, ul {
     font-family: var(--font-family-Quicksand);
 }
 
@@ -43,6 +43,16 @@ p, a {
     font-size: 1.777rem;
     font-weight: 500;
     text-shadow: 0 0 1px #222;
+}
+
+ul {
+    font-size: 1.777rem;
+    font-weight: 500;
+    text-shadow: 0 0 1px #222;
+}
+
+li {
+    padding-bottom: 0.5rem;
 }
 
 /* Icons */
@@ -79,9 +89,15 @@ p, a {
     color: #000;
 }
 
-.icon--background {
+.icon--background-primary {
     background: var(--color-primary);
     color: #fff;
+    border-radius: 50%;
+}
+
+.icon--background-secondary {
+    background: var(--color-secondary);
+    color: #000;
     border-radius: 50%;
 }
 
@@ -97,6 +113,12 @@ p, a {
 .btn-container{
     display: flex;
     justify-content: space-evenly;
+}
+
+.topBtn {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
 }
 
 .btn {
@@ -382,9 +404,13 @@ p, a {
 
 /* Contact Section */
 .contactSection {
+    background: var(--color-primary);
+    padding-bottom: 2rem;
+}
+
+.contact__body {
     display: flex;
     justify-content: center;
-    background: var(--color-primary);
 }
 
 .contactContainer {

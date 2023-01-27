@@ -19,7 +19,7 @@
     ></script>
   </head>
   <body>
-    <header>
+    <header id="header-section">
       <div class="navBar navBar--primary collapsible">
         <div class="navBar__brand navBar__item">
           <h3>Valentin Lopez</h3>
@@ -130,10 +130,10 @@
               </div>
             </div>
           </div>
-          <div class="project__topBtn">
+          <div class="topBtn">
             <a
-              class="icon-container icon--medium icon--background"
-              href="#projects-section"
+              class="icon-container icon--medium icon--background-primary"
+              href="#header-section"
             >
               <i class="fa-solid fa-arrow-up"></i>
             </a>
@@ -199,10 +199,10 @@
               </div>
             </div>
           </div>
-          <div class="project__topBtn">
+          <div class="topBtn">
             <a
-              class="icon-container icon--medium icon--background"
-              href="#projects-section"
+              class="icon-container icon--medium icon--background-primary"
+              href="#header-section"
             >
               <i class="fa-solid fa-arrow-up"></i>
             </a>
@@ -214,11 +214,6 @@
           <h2 class="project__heading">Mobile Robot</h2>
           <div class="project__body">
             <div class="project__block">
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
-                facere omnis deserunt consequuntur aperiam enim fugit eveniet
-                libero eligendi! Recusandae?
-              </p>
               <img
                 class="project__media"
                 src="../images/mobileRobot.jpg"
@@ -226,27 +221,46 @@
               />
             </div>
             <div class="project__block">
-              <video
-                class="project__media"
-                src=""
-                autoplay
-                loop
-                muted
-                controlslist="nodownload"
-              >
-                Your browser doesn't support videos
-              </video>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
-                facere omnis deserunt consequuntur aperiam enim fugit eveniet
-                libero eligendi! Recusandae?
+                This project was carried out as a project for the subject
+                “Digital Embedded Systems” at
+                <a
+                  class="project__block--ancher-color-blue"
+                  href="https://www.enib.fr/en/"
+                  target="_blank"
+                >
+                  École Nationale d’Ingenieurs de Brest </a
+                >.
               </p>
+              <p>
+                The goal was to implement a real-time operating system (RTOS) to
+                control the mobile robot in the photo. The basis is to create
+                several “tasks” which control one particular feature of the
+                robot and then thanks to the RTOS run them together as a part of
+                a full system where the decision of which task has to be run,
+                paused or stopped in each instance is made by the system itself
+                in real-time.
+              </p>
+              <p>Among all the tasks they are found:</p>
+              <ul>
+                <li>
+                  A speed control with an implementation of a digital PI control
+                </li>
+                <li>
+                  A color tracker thanks to a PixyCam used to make the robot
+                  follow a specific target.
+                </li>
+                <li>
+                  A trajectory corrector thanks to the 4 sensors placed on each
+                  corner of the robot
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="project__topBtn">
+          <div class="topBtn">
             <a
-              class="icon-container icon--medium icon--background"
-              href="#projects-section"
+              class="icon-container icon--medium icon--background-primary"
+              href="#header-section"
             >
               <i class="fa-solid fa-arrow-up"></i>
             </a>
@@ -254,14 +268,14 @@
         </div>
       </section>
     </div>
-    <footer>
+    <footer class="contactSection">
       <div class="upEllipse"></div>
       <div class="sectionDivider sectionDivider--primary">
         <div class="line line--secondary"></div>
         <h2 id="contact-section">Contact</h2>
         <div class="line line--secondary"></div>
       </div>
-      <div class="contactSection">
+      <div class="contact__body">
         <div class="contactContainer">
           <h3>Let's talk!</h3>
           <div class="contact__option">
