@@ -9,7 +9,7 @@
     margin-bottom: 5rem;
 }
 
-.projects section:nth-child(even){
+.projects div:nth-child(even){
     background: var(--color-secondary);
 }
 

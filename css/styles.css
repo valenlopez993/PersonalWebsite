@@ -308,7 +308,6 @@ li {
     align-items: center;
     display: flex;
     justify-content: space-around;
-    margin: 2rem, 0;
     text-transform: uppercase;
 }
 
@@ -356,7 +355,7 @@ li {
 }
 
 .projectSection__item {
-    transition: scale 0.3s;
+    transition: transform 0.3s;
     max-width: 200px;
     color: #000;
     text-decoration: none;
@@ -367,7 +366,7 @@ li {
 }
 
 .projectSection__item:hover {
-    scale: 1.1;
+    transform: scale(1.1);
 }
 
 @media screen and (min-width: 768px){
@@ -442,7 +441,6 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
 }
 
 .contact__data {
