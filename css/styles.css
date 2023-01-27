@@ -46,12 +46,13 @@ p, a {
 }
 
 ul {
-    font-size: 1.777rem;
-    font-weight: 500;
-    text-shadow: 0 0 1px #222;
+    margin: 0;
 }
 
 li {
+    font-size: 1.777rem;
+    font-weight: 500;
+    text-shadow: 0 0 1px #222;
     padding-bottom: 0.5rem;
 }
 
@@ -113,6 +114,7 @@ li {
 .btn-container{
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .topBtn {
@@ -147,8 +149,22 @@ li {
     color: #000;
 }
 
+.btn--report {
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+    border: 2px solid var(--color-primary);
+    transition: background 0.3s, color 0.3s;
+}
+
 .btn:hover {
     box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+.btn--report:hover {
+    box-shadow: none;
+    background: var(--color-secondary);
+    color: var(--color-primary);
 }
 
 @media screen and (max-width: 768px){
