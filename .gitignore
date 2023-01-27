@@ -1,2 +1,4 @@
 zzzzIgnore/
 node_modules/
+dist/
+.cache/
