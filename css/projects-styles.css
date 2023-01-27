@@ -13,12 +13,6 @@
     background: var(--color-secondary);
 }
 
-.project__topBtn {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 20px;
-}
-
 .project {
     text-align: center;
     text-transform: uppercase;
@@ -35,7 +29,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 0 5rem 4rem;
+    padding: 0 0 4rem 5rem;
     width: 500px;
     text-align: left;
 }
@@ -47,6 +41,7 @@
 .project__block a {
     text-decoration: none;
     font-weight: bold;
+    text-shadow: none;
 }
 
 .project__block--ancher-color-green {
@@ -59,6 +54,7 @@
 
 .project__block p {
     margin: 0;
+    width: 100%;
 }
 
 .project__block > :first-child {
@@ -78,6 +74,10 @@
     .project__media {
         height: auto;
         width: 100%;
+    }
+
+    .project__block {
+        padding-right: 5rem;
     }
 }
 
