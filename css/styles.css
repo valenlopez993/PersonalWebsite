@@ -78,15 +78,26 @@ li {
 }
 
 .icon {
-    transition: opacity 0.2s;
+    transition: color 0.2s;
 }
 
 .icon:hover {
     cursor: pointer;
-    opacity: 80%;
 }
 
 .icon--dark {
+    color: #000;
+}
+
+.icon--dark:hover {
+    color: #fff;
+}
+
+.icon--white {
+    color: white;
+}
+
+.icon--white:hover {
     color: #000;
 }
 
