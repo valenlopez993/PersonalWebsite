@@ -1,6 +1,7 @@
 @import './normalize.css';
 
 :root {
+    color-scheme: light;
     --font-family-Quicksand: 'Quicksand', sans-serif;
     --font-family-Poppins: 'Poppins', sans-serif;
     --color-body: #E5E1EE;
