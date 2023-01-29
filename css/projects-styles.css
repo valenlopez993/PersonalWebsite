@@ -77,6 +77,20 @@
     margin-bottom: 0;
 }
 
+@media screen and (min-width: 1700px){
+    .project__block {
+        width: 800px;
+    }
+
+    .project__block p {
+        line-height: 3rem;
+    }
+
+    .project__media {
+        height: 800px;
+    }
+}
+
 @media screen and (max-width: 1024px){
     .project__media {
         height: auto;
