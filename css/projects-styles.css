@@ -5,6 +5,10 @@
     padding: 2rem 0;
 }
 
+.project__container {
+    width: 100vw;
+}
+
 .project__heading {
     margin-bottom: 5rem;
 }
