@@ -236,11 +236,11 @@ li {
 .navBar__options-item {
     padding: 1rem 0;
     border-bottom: 1px solid #000;
-    transition: opacity 0.2s;
+    transition: text-shadow 0.2s;
 }
 
 .navBar__options-item:hover {
-    opacity: 70%;
+    text-shadow: 0 0 3px white;
 }
 
 .navBar__options--primary {
