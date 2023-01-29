@@ -240,7 +240,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 3rem;
+    padding: 1rem 4rem;
 }
 
 .navBar__item {
@@ -456,6 +456,7 @@ li {
 /* About Me Section */
 .about-me {
     background: var(--color-primary);
+    padding-inline: 2rem;
 }
 
 .about-me__content {
@@ -464,6 +465,7 @@ li {
     padding: 2rem;
     justify-content: space-evenly;
     color: var(--color-secondary);
+    text-align: justify;
 }
 
 .about-me__image {
