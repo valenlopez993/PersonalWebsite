@@ -394,7 +394,7 @@ li {
     flex-wrap: wrap;
     gap: 4rem;
     justify-content: center;
-    padding: 2rem;
+    padding: 2rem 4rem;
     text-align: center;
 }
 
@@ -427,7 +427,6 @@ li {
 @media screen and (min-width: 768px){
     .projectSection {
         justify-content: space-evenly;
-        flex-wrap: nowrap;
     }
 }
 
@@ -435,7 +434,6 @@ li {
     .projectSection__image {
         width: 300px;
         height: 350px;
-        flex-wrap: nowrap;
     }
 
     .projectSection__item {
