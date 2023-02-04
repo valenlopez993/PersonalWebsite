@@ -60,7 +60,7 @@
 }
 
 .project__media {
-    height: 500px;
+    width: 375px;
     border-radius: 20px;
     object-fit: contain;
     box-shadow: 5px 5px 10px 5px #222;
@@ -87,7 +87,7 @@
     }
 
     .project__media {
-        height: 800px;
+        width: 600px;
     }
 }
 
