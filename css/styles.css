@@ -200,6 +200,12 @@ li {
     transition: background 0.3s, color 0.3s;
 }
 
+.btn--in-mobile {
+    display: none;
+    padding: 0.5rem;
+    box-shadow: 3px 2px 10px 5px #222;
+}
+
 .btn:hover {
     box-shadow: 0 0 20px rgb(255, 255, 255);
 }
@@ -219,6 +225,12 @@ li {
 @media screen and (min-width: 1700px){
     .btn--report {
         margin-bottom: 4rem
+    }
+}
+
+@media (pointer: coarse) {
+    .btn--in-mobile {
+        display: block;
     }
 }
 
@@ -449,6 +461,12 @@ li {
 
     .projectSection__item {
         max-width: 500px;
+    }
+}
+
+@media (pointer: coarse) {
+    .projectSection__item:hover {
+        transform: scale(1);
     }
 }
 
