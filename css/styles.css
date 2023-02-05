@@ -30,6 +30,11 @@ body {
 }
 
 /* Typography */
+em {
+    font-weight: bold;
+    font-style: normal;
+}
+
 h1, h2, h3, p, a, ul {
     font-family: var(--font-family-Quicksand);
 }
