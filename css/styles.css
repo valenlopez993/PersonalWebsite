@@ -6,6 +6,7 @@
     --font-family-Poppins: 'Poppins', sans-serif;
     --color-body: #dcdbdd;
     --color-primary: #20465B;
+    --color-primary-off: #20465b00;
     --color-secondary: #fff;
 }
 
@@ -212,7 +213,7 @@ li {
 
 .btn--report:hover {
     box-shadow: none;
-    background: var(--color-secondary);
+    background: var(--color-primary-off);
     color: var(--color-primary);
 }
 
