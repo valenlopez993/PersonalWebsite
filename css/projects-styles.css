@@ -44,19 +44,23 @@
     text-shadow: none;
 }
 
+.project__block p {
+    margin: 0;
+    padding-bottom: 2rem;
+    width: 100%;
+    line-height: 2.1rem;
+}
+
+.project__block ul {
+    padding-bottom: 2rem;
+}
+
 .project__block--ancher-color-green {
     color: green;
 }
 
 .project__block--ancher-color-blue {
     color: rgb(30, 83, 255)
-}
-
-.project__block p {
-    margin: 0;
-    padding-bottom: 2rem;
-    width: 100%;
-    line-height: 2.1rem;
 }
 
 .project__media {
