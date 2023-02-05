@@ -13,7 +13,7 @@
     margin-bottom: 5rem;
 }
 
-.projects > div:nth-child(even){
+.projects > div:nth-child(odd){
     background: var(--color-secondary);
 }
 
