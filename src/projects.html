@@ -157,9 +157,9 @@
               </p>
               <p>
                 In addition, the accuracy and loss evolution of the model during
-                the training are displayed using Matplotlib. This allows to
-                visualize how the accuracy and loss of the model changed over
-                time as it processed more and more data.
+                the training are displayed using <em>Matplotlib</em>. This
+                allows to visualize how the accuracy and loss of the model
+                changed over time as it processed more and more data.
               </p>
               <p>
                 At the end, the CNN model was able to achieve an accuracy of 70%
@@ -278,8 +278,58 @@
         >
           <h2 class="project__heading">Neural Network SMS Text Classifier</h2>
           <div class="project__body">
-            <div class="project__block"></div>
-            <div class="project__block"></div>
+            <div class="project__block">
+              <p>
+                This project was part of a Machine Learning course where I built
+                a Recurrent Neural Network (RNN) to classify SMS messages as
+                either <i>spam</i> or <i>ham</i> (non-spam).
+              </p>
+              <p>
+                The dataset used for training the model was obtained from the
+                <a
+                  class="project__block--ancher-color-blue"
+                  href="https://www.freecodecamp.org/learn/machine-learning-with-python/#how-neural-networks-work"
+                  target="_blank"
+                >
+                  Free code camp Machine Learning course</a
+                >
+                resources.
+              </p>
+              <p>
+                The preprocessing of the text data involved first tokenization
+                that was performed using the class Tokenizer of
+                <em>TensorFlow</em>, and then padding of the sequences due to
+                the different sizes of each SMS text passed to the model.
+              </p>
+            </div>
+            <div class="project__block">
+              <p>
+                The model architecture was built with <em>Keras</em> and it
+                consists of three layers:
+              </p>
+              <ul>
+                <li>Embedding input layer</li>
+                <li>Long short-term memory (LSTM) layer</li>
+                <li>
+                  A 1-neuron Dense output layer with a sigmoid activation
+                  function to produce a binary output between 0 and 1, where 0
+                  represents <i>ham</i> and 1 represents <i>spam</i>
+                </li>
+              </ul>
+              <p>
+                Of all the projects in the course, I found this one the most
+                interesting and challenging due to all the notions I had to
+                learn in order to preprocess the text data.
+              </p>
+              <div class="btn-container">
+                <a
+                  class="btn btn--projects-info btn--colab"
+                  href="https://colab.research.google.com/github/valenlopez993/SMS_Classifier/blob/main/SMS_Classifier.ipynb"
+                  target="_blank"
+                  >Check the code on Colab</a
+                >
+              </div>
+            </div>
           </div>
           <div class="topBtn">
             <a
