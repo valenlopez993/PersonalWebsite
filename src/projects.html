@@ -137,16 +137,23 @@
           <div class="project__body">
             <div class="project__block">
               <p>
-                This project was part of the FreeCodeCamp Machine Learning
-                course, which aimed to introduce students to Convolutional
-                Neural Networks (CNNs). The challenge was to build a CNN capable
-                of distinguishing between cat and dog images.
+                This project was part of the
+                <a
+                  class="project__block--ancher-color-blue"
+                  href="https://www.freecodecamp.org/learn/machine-learning-with-python/#how-neural-networks-work"
+                  target="_blank"
+                >
+                  Free code camp Machine Learning course </a
+                >, which aimed to introduce students to Convolutional Neural
+                Networks (CNNs). The challenge was to build a CNN capable of
+                distinguishing between cat and dog images.
               </p>
               <p>
-                The image preprocessing was performed using TensorFlow methods,
-                and the Neural Network architecture was built using Keras. The
-                CNN model was trained using a dataset of cat and dog images
-                given as part of the course’s resources.
+                The image preprocessing was performed using
+                <em>TensorFlow</em> methods, and the Neural Network architecture
+                was built using <em>Keras</em>. The CNN model was trained using
+                a dataset of cat and dog images given as part of the course’s
+                resources.
               </p>
               <p>
                 In addition, the accuracy and loss evolution of the model during
@@ -173,7 +180,7 @@
                   research and effort to understand the underlying concepts and
                   implement them in code. Nevertheless, it was a rewarding
                   experience to see the model accurately distinguish between cat
-                  and dog images
+                  and dog images.
                 </p>
               </div>
               <div class="btn-container">
@@ -201,8 +208,56 @@
         <section class="project" data-aos="slide-left" data-aos-duration="2000">
           <h2 class="project__heading">Book Recommendation Engine</h2>
           <div class="project__body">
-            <div class="project__block"></div>
-            <div class="project__block"></div>
+            <div class="project__block">
+              <p>
+                The challenge of this project, part of the
+                <a
+                  class="project__block--ancher-color-blue"
+                  href="https://www.freecodecamp.org/learn/machine-learning-with-python/#how-neural-networks-work"
+                  target="_blank"
+                >
+                  Free code camp Machine Learning course </a
+                >, was to build a Book Recommendation Engine using the K-Nearest
+                Neighbors algorithm. The dataset used for training the model was
+                the Book-Crossings dataset which contains 1.1 million ratings
+                (scale of 1-10) of 270,000 books by 90,000 users.
+              </p>
+              <p>
+                All the data were treated using <em>Pandas</em> and the Nearest
+                Neighbors algorithm was implemented using <em>Scikit-learn</em>.
+              </p>
+              <p>
+                The algorithm was designed to suggest five books that are
+                similar to the input book based on the user’s rating for it and
+                the book’s author.
+              </p>
+            </div>
+            <div class="project__block">
+              <p>For instance, for the book:</p>
+              <ul>
+                <li>Where the Heart Is (Oprah's Book Club (Paperback))</li>
+              </ul>
+              <p>The algorithm will return the following recommendations:</p>
+              <ul>
+                <li>I'll Be Seeing You</li>
+                <li>The Weight of Water</li>
+                <li>The Surgeon</li>
+                <li>I Know This Much Is True</li>
+                <li>The Lovely Bones: A Novel</li>
+              </ul>
+              <p>
+                And the distance of each recommendation to the input book
+                calculated by the KNN algorithm.
+              </p>
+              <div class="btn-container">
+                <a
+                  class="btn btn--projects-info btn--colab"
+                  href="https://colab.research.google.com/github/valenlopez993/KNN_Book_Recomendation/blob/main/KNN_Book_Recommendation.ipynb"
+                  target="_blank"
+                  >Check the code on Colab</a
+                >
+              </div>
+            </div>
           </div>
           <div class="topBtn">
             <a
