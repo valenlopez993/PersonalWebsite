@@ -211,6 +211,12 @@ li {
     color: #fff;
 }
 
+.btn--replit {
+    border: 2px solid #383b42;
+    background: #383b42;
+    color: #fff;
+}
+
 .btn--report {
     border: 2px solid var(--color-primary);
 }
@@ -232,6 +238,12 @@ li {
 }
 
 .btn--github:hover {
+    box-shadow: none;
+    background: var(--color-primary-off);
+    color: #000;
+}
+
+.btn--replit:hover {
     box-shadow: none;
     background: var(--color-primary-off);
     color: #000;
