@@ -203,8 +203,75 @@
         <section class="project" data-aos="slide-left" data-aos-duration="2000">
           <h2 class="project__heading">Rock Paper Scissors</h2>
           <div class="project__body">
-            <div class="project__block"></div>
-            <div class="project__block"></div>
+            <div class="project__block">
+              <div>
+                <p>
+                  This project was part of the
+                  <a
+                    class="project__block--ancher-color-blue"
+                    href="https://www.freecodecamp.org/learn/machine-learning-with-python/#how-neural-networks-work"
+                    target="_blank"
+                  >
+                    Free code camp Machine Learning course
+                  </a>
+                  and my first approach to artificial intelligence.
+                </p>
+                <p>
+                  The goal of this project was to develop an intelligent
+                  algorithm capable of adapting its game to beat different
+                  strategies in the classic game of Rock, Paper, and Scissors.
+                  The project utilized four pre-existing strategies, or bots,
+                  which were named:
+                </p>
+                <ul>
+                  <li>Quincy</li>
+                  <li>Abbey</li>
+                  <li>Kris</li>
+                  <li>Mrugesh</li>
+                </ul>
+              </div>
+            </div>
+            <div class="project__block">
+              <div>
+                <p>
+                  To beat these bots, I proposed a strategy that involves
+                  creating a NumPy matrix with four dimensions with 3 elements
+                  in each dimension. Each dimension represents the opponent's
+                  last four plays, and each element inside represents the three
+                  possible games: Rock, Paper, or Scissors.
+                </p>
+                <p>
+                  The matrix keeps track of the frequency of each four sequence
+                  plays and increments the count of the respective sequence by
+                  one after each play. This approach enabled the algorithm to
+                  predict the most probable next move of the opponent based on
+                  the frequency of past moves.
+                </p>
+                <p>
+                  The algorithm achieved a minimum of 60% success rate against
+                  each bot, which, while not optimal, is still good enough
+                  considering the simplicity of the approach.
+                </p>
+              </div>
+              <div class="btn-container-multiple">
+                <div class="btn-container">
+                  <a
+                    class="btn btn--projects-info btn--github"
+                    href="https://github.com/valenlopez993/RockPaperScissors/blob/main/RPS.py"
+                    target="_blank"
+                    >Check the code on GitHub</a
+                  >
+                </div>
+                <div class="btn-container">
+                  <a
+                    class="btn btn--projects-info btn--replit"
+                    href="https://replit.com/@ValentinLopez/boilerplate-rock-paper-scissors"
+                    target="_blank"
+                    >Run the code on Replit</a
+                  >
+                </div>
+              </div>
+            </div>
           </div>
           <div class="topBtn">
             <a
@@ -355,7 +422,7 @@
               <p>A tiny demo is shown in the recording above.</p>
               <div class="btn-container">
                 <a
-                  class="btn btn--primary btn--report"
+                  class="btn btn--primary btn--projects-info btn--report"
                   href="../docs/reports/PPE_report.pdf"
                   target="_blank"
                   >Click here to see the full report</a
