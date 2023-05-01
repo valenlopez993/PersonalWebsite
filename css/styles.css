@@ -8,6 +8,9 @@
     --color-primary: #20465B;
     --color-primary-off: #20465b00;
     --color-secondary: #fff;
+    --color-github: #000;
+    --color-replit: #383b42;
+    --color-colab: #e29b00;
 }
 
 * {
@@ -213,15 +216,21 @@ li {
 }
 
 .btn--github {
-    border: 2px solid #000;
-    background: #000;
+    border: 2px solid var(--color-github);
+    background: var(--color-github);
     color: #fff;
 }
 
 .btn--replit {
-    border: 2px solid #383b42;
-    background: #383b42;
+    border: 2px solid var(--color-replit);
+    background: var(--color-replit);
     color: #fff;
+}
+
+.btn--colab {
+    border: 2px solid #e29b00;
+    background: #e29b00;
+    color: #000;
 }
 
 .btn--report {
@@ -254,6 +263,12 @@ li {
     box-shadow: none;
     background: var(--color-primary-off);
     color: #000;
+}
+
+.btn--colab:hover {
+    box-shadow: none;
+    background: var(--color-primary-off);
+    color: var(--color-colab);
 }
 
 @media screen and (max-width: 768px){
