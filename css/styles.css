@@ -198,12 +198,21 @@ li {
     color: #000;
 }
 
-.btn--report {
+.btn--projects-info {
     margin: 0;
     font-weight: bold;
     letter-spacing: 0.15rem;
-    border: 2px solid var(--color-primary);
     transition: background 0.3s, color 0.3s;
+}
+
+.btn--github {
+    border: 2px solid #000;
+    background: #000;
+    color: #fff;
+}
+
+.btn--report {
+    border: 2px solid var(--color-primary);
 }
 
 .btn--in-mobile {
@@ -222,6 +231,12 @@ li {
     color: var(--color-primary);
 }
 
+.btn--github:hover {
+    box-shadow: none;
+    background: var(--color-primary-off);
+    color: #000;
+}
+
 @media screen and (max-width: 768px){
     .btn-container {
         flex-direction: column;
@@ -229,7 +244,7 @@ li {
 }
 
 @media screen and (min-width: 1700px){
-    .btn--report {
+    .btn--projects-info {
         margin-bottom: 4rem
     }
 }
