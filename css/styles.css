@@ -161,6 +161,13 @@ li {
 }
 
 /* Buttons */
+.btn-container-multiple{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
 .btn-container{
     display: flex;
     justify-content: space-evenly;
