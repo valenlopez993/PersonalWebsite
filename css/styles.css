@@ -533,6 +533,7 @@ li {
 
 .about-me__content {
     display: flex;
+    align-items: center;
     gap: 2rem;
     padding: 2rem;
     justify-content: space-evenly;
